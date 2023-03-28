@@ -71,11 +71,18 @@ Anaconda - Python 3.7
 
 
 ### iv) Split and merge RGB Image
+![Screenshot (381)](https://user-images.githubusercontent.com/93427594/228322470-f008d067-8bcf-4ef4-8274-19d4f4aff664.png)
+![Screenshot (383)](https://user-images.githubusercontent.com/93427594/228322536-c06dd96e-53b0-4121-9f3c-7aff27459593.png)
+![Screenshot (389)](https://user-images.githubusercontent.com/93427594/228322591-ee56bb47-50dd-4c62-997d-4c198ef7eba9.png)
+![Screenshot (391)](https://user-images.githubusercontent.com/93427594/228322607-04cf300c-ae5a-4064-bf55-ba6e262d4732.png)
 
 
 ### v) Split and merge HSV Image
-<br>
-<br>
+![Screenshot (392)](https://user-images.githubusercontent.com/93427594/228322686-2bcf90ed-9d82-40bb-8026-4dd61b1c6c46.png)
+![Screenshot (393)](https://user-images.githubusercontent.com/93427594/228322695-6915c871-2e22-4821-85b7-55894f13222b.png)
+![Screenshot (394)](https://user-images.githubusercontent.com/93427594/228322715-4d3a574d-cf34-493d-9630-f47c141963d7.png)
+![Screenshot (395)](https://user-images.githubusercontent.com/93427594/228322740-538c9045-d812-4a72-a820-7599123c9a67.png)
+
 
 
 ## Result:
