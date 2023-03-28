@@ -6,48 +6,124 @@ To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 Anaconda - Python 3.7
 ## Algorithm:
 ### Step1:
-<br>
+Import cv2.
 
 ### Step2:
-<br>
+Assign the image.
 
 ### Step3:
-<br>
+Do the specific operations for each color conversion type.
 
 ### Step4:
-<br>
+Display the image.
 
 ### Step5:
-<br>
+End the program.
 
 ## Program:
 ```python
-# Developed By:
-# Register Number:
+# Developed By:J.Archana priya
+# Register Number:212221230007
 # i) Convert BGR and RGB to HSV and GRAY
+```
+import cv2
+muimage = cv2.imread('mu.jpg')
+cv2.imshow('Original image',muimage)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
 
 
+import cv2
+muimage = cv2.imread('mu.jpg')
+hsvim = cv2.cvtColor(muimage,cv2.COLOR_BGR2HSV)
+cv2.imshow('HSV Image',hsvim)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
+
+import cv2
+muimage = cv2.imread('mu.jpg')
+hsv2im = cv2.cvtColor(muimage,cv2.COLOR_RGB2HSV)
+cv2.imshow('HSV Image',hsv2im)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
 
 
+import cv2
+muimage = cv2.imread('mu.jpg')
+grayim = cv2.cvtColor(muimage,cv2.COLOR_BGR2GRAY)
+cv2.imshow('GRAY Image',grayim)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
 
+
+import cv2
+muimage = cv2.imread('mu.jpg')
+grayim2 = cv2.cvtColor(muimage,cv2.COLOR_RGB2GRAY)
+cv2.imshow('GRAY Image',grayim2)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
+```
 # ii)Convert HSV to RGB and BGR
+```
+import cv2
+muimage = cv2.imread('mu.jpg')
+hsv2rgb = cv2.cvtColor(muimage,cv2.COLOR_HSV2RGB)
+cv2.imshow('GRAY Image',hsv2rgb)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
 
-
-
-
-
+import cv2
+muimage = cv2.imread('mu.jpg')
+hsv2bgr = cv2.cvtColor(muimage,cv2.COLOR_HSV2BGR)
+cv2.imshow('GRAY Image',hsv2bgr)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
+```
 # iii)Convert RGB and BGR to YCrCb
+```
+import cv2
+muimage = cv2.imread('mu.jpg')
+YCrCb_image = cv2.cvtColor(muimage , cv2.COLOR_RGB2YCrCb)
+cv2.imshow('YCRCB Image',YCrCb_image)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
 
-
-
-
+import cv2
+muimage = cv2.imread('mu.jpg')
+YCrCb_image = cv2.cvtColor(muimage , cv2.COLOR_BGR2YCrCb)
+cv2.imshow('YCRCB Image',YCrCb_image)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
+```
 # iv)Split and Merge RGB Image
-
-
-
-
+```
+import cv2
+muimage = cv2.imread('mu.jpg')
+blue = muimage[:,:,0]
+green = muimage[:,:,1]
+red = muimage[:,:,2]
+cv2.imshow('Blue',blue)
+cv2.imshow('Green',green)
+cv2.imshow('Red',red)
+merge = cv2.merge((blue,green,red))
+cv2.imshow('Merge',merge)
+cv2.waitKey(0)
+cv2. destroyAllWindows()
+```
 # v) Split and merge HSV Image
-
+```
+import cv2
+image=cv2.imread('mu.jpg')
+hsv=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
+h,s,v=cv2.split(hsv)
+cv2.imshow("Hue-image",h)
+cv2.imshow("Saturation-image",s)
+cv2.imshow("gray-image",v)
+Merged_HSV=cv2.merge((h,s,v))
+cv2.imshow('Merged HSV Image',Merged_HSV)
+cv2.waitKey(0)
+cv2. destoryAllWindows()
+```
 
 
 
