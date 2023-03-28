@@ -21,7 +21,7 @@ Display the image.
 End the program.
 
 ## Program:
-```python
+python
 # Developed By:J.Archana priya
 # Register Number:212221230007
 # i) Convert BGR and RGB to HSV and GRAY
@@ -127,7 +127,7 @@ cv2. destoryAllWindows()
 
 
 
-```
+
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 ![Screenshot (366)](https://user-images.githubusercontent.com/93427594/228317689-5f116ad9-765f-4833-8fc3-2e2896c4098e.png)
