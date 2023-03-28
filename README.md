@@ -25,6 +25,7 @@ python
 # Developed By:J.Archana priya
 # Register Number:212221230007
 # i) Convert BGR and RGB to HSV and GRAY
+
 ```
 import cv2
 muimage = cv2.imread('mu.jpg')
